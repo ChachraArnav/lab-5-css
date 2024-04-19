@@ -1,0 +1,87 @@
+/* Reset default margin, padding, font, and color */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background: linear-gradient(to bottom, #f6f6f6, #ffffff); /* Soft gradient background */
+    overflow-x: hidden; /* Ensure horizontal overflow doesn't disrupt layout */
+  }
+  
+  /* Styling for the header */
+  header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  }
+  
+  /* Styling for the main heading */
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
+  }
+  
+  /* Styling for the main content area */
+  main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+  }
+  
+  /* Styling for responsive video containers */
+  .responsive-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: linear-gradient(to bottom right, #4facfe, #00f2fe); /* Gradient background */
+    border-radius: 12px; /* Rounded corners */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for responsive video containers */
+  .responsive-container:hover {
+    transform: scale(1.02); /* Scale up slightly on hover */
+  }
+  
+  /* Styling for content inside containers */
+  .content {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
+  }
+  
+  /* Styling for additional information sections */
+  .info {
+    margin-top: 30px;
+    background: rgba(255, 126, 95, 0.1); /* Light orange background with transparency */
+    padding: 30px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Styling for paragraphs inside information sections */
+  .info p {
+    font-size: 1.2em;
+  }
+  
+  /* Styling for the footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    color: #ffffff;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Inset shadow at the top */
+  }
+  
